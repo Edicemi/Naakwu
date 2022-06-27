@@ -1,0 +1,46 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.nav-logo {
+    width: 8rem
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    width: 12rem;
+    text-decoration: none;
+    font-family: Montserrat;
+
+}
+
+button {
+    border: 1px solid #333333;
+    background-color: white;
+    color: #333333;
+    width: 9rem;
+    height: 3rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+}

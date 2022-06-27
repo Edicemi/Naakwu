@@ -1,0 +1,11 @@
+.hero-image {
+    position: relative;
+    width: 100%;
+    background: cover;
+}
+
+.hero-icon {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+}
