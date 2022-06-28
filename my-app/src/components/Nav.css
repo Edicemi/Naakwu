@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .Navbar {
     display: flex;
     align-items: center;
@@ -30,8 +32,7 @@ a {
     color: #000000;
     width: 12rem;
     text-decoration: none;
-    font-family: Montserrat;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 button {

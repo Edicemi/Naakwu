@@ -1,11 +1,38 @@
 .hero-image {
-    position: relative;
-    width: 100%;
-    background: cover;
+	position: relative;
+	width: 100%;
 }
 
 .hero-icon {
-    position: absolute;
-    bottom: 1rem;
-    left: 0;
+	position: absolute;
+	top: 110%;
+	right: 40%;
+	transform: translate(-110%, -40%);
+}
+
+.play {
+	position: absolute;
+	z-index: 5;
+	right: 150px;
+	top: 70px;
+}
+.third {
+	position: absolute;
+	top: 15rem;
+	right: 5rem;
+}
+
+.second {
+	position: absolute;
+	bottom: -11rem;
+}
+
+.shape {
+	width: 70rem;
+	height: 20px;
+	position: absolute;
+	background-color: #333333;
+    margin: auto;
+    right: 4rem;
+    top: 46.5rem;
 }
