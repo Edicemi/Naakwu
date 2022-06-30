@@ -95,7 +95,9 @@
     height: 100%;
     margin-bottom: 5rem;
   }
-
+  .length .read {
+    width: 80%;
+  }
   
 }
 
