@@ -1,5 +1,4 @@
 import React from 'react'
-import Solution1 from './Solution1'
 
 function Solution2(props) {
   return (
