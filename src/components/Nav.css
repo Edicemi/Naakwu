@@ -139,8 +139,8 @@ a {
     color: white;
     border: none;
     top: 9.5rem;
-    margin-left: -14rem;
-  }
+left: 0;  
+}
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
