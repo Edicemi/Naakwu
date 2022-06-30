@@ -15,7 +15,7 @@
 .footer-icons {
   display: flex;
   justify-content: space-around;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .icons {
