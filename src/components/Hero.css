@@ -28,7 +28,11 @@
   right: 4%;
   top: 90%;
 }
+.play {
+  z-index: 5;
+  left: 97%;
 
+  }
 .third {
   top: 40%;
   left: 67%;
@@ -41,13 +45,9 @@
 
 .Image3 {
   width: 3rem;
-  left: 90%;
 }
 
-.play {
 
-z-index: 5;
-}
 
 .second {
   left: 10%;
@@ -87,11 +87,11 @@ z-index: 5;
   
   .Image3 {
     width: 3rem;
-    left: 90%;
   }
   
   .play {
-  
+      left: -100% !important;
+
   z-index: 5;
   }
   
