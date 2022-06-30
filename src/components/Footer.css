@@ -1,0 +1,67 @@
+.footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.Naakwu {
+  width: 5rem;
+  height: 20px;
+  margin-right: 35rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.icons {
+  width: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+  .footer {
+    background-color: black;
+    height: 9rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+
+  }
+
+  .Naakwu {
+    width: 7rem;
+    height: 2rem;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+  .footer-icons {
+    display: flex;
+    gap: 10px;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 700px) {
+  .Naakwu {
+   
+    margin-right: 15rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .Naakwu {
+   
+    margin-right: 49rem;
+  }
+
+}

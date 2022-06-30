@@ -1,0 +1,146 @@
+.box {
+  display: flex;
+  width: 50rem;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 30rem;
+  gap: 2rem;
+}
+
+.back {
+  width: 17rem;
+  height: 30rem;
+  margin: auto;
+  position: relative;
+}
+
+.back1,
+.back2,
+.back3 {
+  position: absolute;
+  z-index: 5;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.box p {
+  position: absolute;
+  color: white;
+  width: 10rem;
+  margin-top: -3rem;
+  padding-left: 3rem;
+  font-size: 27px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Anek Latin", sans-serif;
+}
+
+.colora {
+  color: #e32681;
+}
+
+.colorb {
+  color: #57cc99;
+}
+.colorc {
+  color: #e09f3e;
+}
+
+.rectanglea,
+.rectangleb,
+.rectanglec {
+  width: 13rem;
+  position: absolute;
+  height: 8px;
+  margin-top: -6px;
+  margin-left: 2rem;
+}
+
+.rectanglea {
+  background-color: #e32681;
+}
+
+.rectangleb {
+  background-color: #57cc99;
+}
+
+.rectanglec {
+  background-color: #e09f3e;
+}
+
+@media only screen and (max-width: 420px) {
+  .box {
+    display: block;
+
+    width: 100vw;
+    margin: auto;
+    height: 100%;
+  }
+
+  .back {
+    margin-bottom: 2rem;
+  }
+
+  .box p {
+    position: absolute;
+    color: white;
+    width: 10rem;
+    margin-top: -5rem;
+    padding-left: 7rem;
+    font-size: 27px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: "Anek Latin", sans-serif;
+  }
+
+  .rectanglea,
+  .rectangleb,
+  .rectanglec {
+    width: 13rem;
+    position: absolute;
+    height: 8px;
+    margin-top: -40px;
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 700px) {
+  .box {
+    display: block;
+    width: 100vw;
+    margin: auto;
+    height: 100%;
+  }
+
+  .back {
+    margin-bottom: 2rem;
+  }
+
+  .box p {
+    position: absolute;
+    color: white;
+    width: 10rem;
+    margin-top: -5rem;
+    padding-left: 17rem;
+    font-size: 27px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: "Anek Latin", sans-serif;
+  }
+
+  .rectanglea,
+  .rectangleb,
+  .rectanglec {
+    width: 13rem;
+    position: absolute;
+    height: 8px;
+    margin-top: -40px;
+    margin-left: 15rem;
+  }
+
+}

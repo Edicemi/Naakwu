@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;
+  gap: 2rem;
+  align-items: center;
+  height: 40rem;
+  margin-bottom: 5rem;
+}
+
+.head {
+  width: 40rem;
+  height: 30rem;
+  text-align: left;
+}
+
+.head h1 {
+  font-family: "Anek Latin", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.head p {
+  font-family: "Montserrat", sans-serif;
+  width: 25rem;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #666666;
+  font-size: 15px;
+}
+
+.about {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 119px;
+  height: 40px;
+}
+
+.Imagecon {
+  width: 20rem;
+  height: 25rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .container {
+    display: block;
+    height: 80rem;
+    position: relative;
+    margin: auto;
+    width: 70vw;
+    overflow: hidden;
+  }
+
+  .head {
+    position: absolute;
+    top: 35rem;
+    width: 25rem;
+    margin: auto;
+    align-items: center;
+  }
+  .Imagecon {
+    position: absolute;
+    left: 0;
+    top: 5rem;
+    width: 20rem;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 700px) {
+  .container {
+    display: flex;
+    width: 95%;
+    gap: 1rem;
+    margin: auto;
+    height: 50rem;
+  }
+
+  .head{
+    width: 25rem;
+  }
+  .head p {
+    width: 20rem;
+   
+  }
+  .Imagecon {
+width: 20rem;  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+ 
+}
