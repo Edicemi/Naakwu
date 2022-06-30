@@ -9,13 +9,13 @@ const  Nav = () => {
       <div className={`nav-menu ${isOpen && "open"}`}>
       <ul className="nav-items">
         <li className="nav-links">
-          <a href="#">Our Solution</a>
+          <a href="/">Our Solution</a>
         </li>
         <li className="nav-links">
-          <a href="#">Our blog</a>
+          <a href="/">Our blog</a>
         </li>
         <li className="nav-links">
-          <a href="#">About us</a>
+          <a href="/">About us</a>
         </li>
         </ul>
 
