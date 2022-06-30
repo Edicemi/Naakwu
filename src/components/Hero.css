@@ -68,8 +68,8 @@
     width: 17rem;
     background-color: #333333;
     margin: auto;
-    top: 45%;
-    left: 3%;
+    top: 55%;
+    left: 6%;
   }
 
   .hero-icon {
@@ -104,7 +104,7 @@
   .Image,
   .Image1,
   .Image2 {
-    width: 5rem;
+    width: 3rem;
   }
 }
 
