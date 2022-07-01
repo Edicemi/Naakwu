@@ -96,7 +96,7 @@
     margin-bottom: 5rem;
   }
   .length .read {
-    width: 10rem;
+    width: 12rem !important;
   }
   
 }

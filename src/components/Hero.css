@@ -1,5 +1,5 @@
-.Hero-section{
-	margin-top: 0;
+.Hero-section {
+  margin-top: 0;
 }
 
 .hero-image {
@@ -26,13 +26,13 @@
   height: 28px;
   background-color: #333333;
   right: 4%;
-  top: 90%;
+  top: 80%;
 }
 .play {
   z-index: 5;
-  left: 97%;
-
-  }
+  left: 6.5rem;
+  top: -5rem;
+}
 .third {
   top: 40%;
   left: 67%;
@@ -46,8 +46,6 @@
 .Image3 {
   width: 3rem;
 }
-
-
 
 .second {
   left: 10%;
@@ -68,7 +66,7 @@
     width: 17rem;
     background-color: #333333;
     margin: auto;
-    top: 55%;
+    top: 70%;
     left: 6%;
   }
 
@@ -79,32 +77,28 @@
   .third {
     top: 34%;
     left: 15%;
+    width: 25%;
   }
   .first {
     display: flex;
     bottom: 3%;
     left: 5%;
   }
-  
-  .Image3 {
-    width: 4rem;
-  }
-  
-  .play {
-      left: -100% !important;
 
-  z-index: 5;
+  .play {
+    left: 4.5rem !important;
+    top: -4rem;
+    z-index: 5;
   }
-  
+
   .second {
-    left: 10%;
+    left: 5%;
   }
-  
 
   .Image,
   .Image1,
   .Image2 {
-    width: 4rem;
+    width: 100%;
   }
 }
 
@@ -150,27 +144,34 @@
     width: 7rem;
   }
 }
-
+@media (min-width: 701px) and (max-width: 1024px) {
+  .shape {
+    width: 55rem;
+    right: 4%;
+    top: 73%;
+  }
+}
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .hero-icon {
+    top: 40rem;
+  }
 
-	.hero-icon {
-		top: 40rem;
-	  }
-	  
-	  .shape {
-		width: 70rem;
-		right: 4rem;
-		top: 46rem;
-	  }
-	  
-	  .third {
-		top: 12rem;
-		left: 11rem;
-	  }
-	  
-	  .Image,
-	  .Image1,
-	  .Image2 {
-		width: 10rem;
-	  }
+  .shape {
+    width: 70rem;
+    right: 4%;
+    top: 92%;
+    position: absolute;
+  }
+
+  .third {
+    top: 52%;
+    left: 67%;
+  }
+
+  
+  .play {
+    z-index: 5;
+    left: 6.5rem;
+    top: -5rem;
+  }
 }
