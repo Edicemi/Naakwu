@@ -1,0 +1,170 @@
+.Process {
+  height: 40rem;
+}
+.Process h1 {
+  font-family: "Anek Latin", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.Design {
+  display: flex;
+  gap: 8rem;
+  width: 35rem;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+.Design p {
+  font-size: 14px;
+  align-items: left;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #666666;
+  font-family: "Montserrat", sans-serif;
+}
+
+.estimation h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  width: 10rem;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 186rem;
+  color: #333333;
+}
+
+.estimation img {
+  position: relative;
+  top: 1rem;
+}
+
+.bullet {
+  display: flex;
+  width: 15rem;
+  align-items: center;
+  gap: 1rem;
+  justify-content: left;
+}
+.bullet1 {
+  display: flex;
+  gap: 5rem;
+}
+
+.dot {
+  height: 8px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  border-bottom: 2px solid #e6e6e6;
+  width: 50rem;
+  margin: auto;
+  padding-bottom: 1px;
+  cursor: pointer;
+}
+
+.estimate {
+  width: 34rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .Process {
+    height: 100%;
+    margin-bottom: 5rem;
+    overflow: hidden;
+  }
+
+  .Design {
+    display: block;
+    width: 20rem;
+    margin: auto;
+  }
+
+  .Design p {
+    width: 20rem;
+  }
+ 
+  .estimation h5 {
+    display: none;
+  }
+
+  .estimation img {
+    display: none;
+  }
+
+  .bullet1 {
+    display: block;
+  }
+
+  .heading {
+    display: flex;
+  }
+}
+@media (min-width: 421px) and (max-width: 700px) {
+  .Process {
+    width: fit-content;
+  }
+
+  .Design {
+    display: flex;
+    gap: 5rem;
+    width: 35rem;
+    text-align: left;
+    margin-left: 5rem;
+  }
+
+  .heading {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+  }
+  .estimation h5 {
+    top: 242rem;
+    left: 3rem;
+  }
+
+  .Design p {
+    width: 25rem;
+  }
+
+  .bullet1 {
+    display: block;
+  }
+
+  .heading {
+    display: flex;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  
+  .Design {
+    display: flex;
+    gap: 7rem;
+    width: 100rem;
+    text-align: left;
+    margin-left: 20rem;
+  }
+  .estimation h5 {
+    top: 196rem;
+    left: 18rem;
+  }
+}

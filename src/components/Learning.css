@@ -1,0 +1,68 @@
+.Learning1 {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  justify-content: space-evenly;
+  height: 30rem;
+  background-color: #f2f2f2;
+  padding-top: 5rem;
+}
+
+.Learning {
+  width: 12rem;
+}
+
+.card_description, .card_footer, .card_footer2 {
+  font-family: "Montserrat", sans-serif;
+  color: #606060;
+  font-size: 12px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.app {
+  width: 12rem;
+}
+
+.card_heading {
+  width: 12rem;
+  border-bottom: 1px solid #33333366;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .Learning1 {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 90rem;
+  }
+
+  .Learning {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 20rem;
+  }
+
+  .Learning h5 {
+    width: 20rem;
+  }
+  .app {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 700px) {
+  .Learning1 {
+    display: flex;
+    width: 100%;
+  }
+
+ 
+  .Learning {
+    width: 10rem;
+  }
+}

@@ -1,0 +1,177 @@
+.Hero-section {
+  margin-top: 0;
+}
+
+.hero-image {
+  position: relative;
+  width: 100%;
+}
+
+.hero-icon {
+  position: absolute;
+  top: 32rem;
+  right: 40%;
+  transform: translate(-110%, -40%);
+}
+
+.shape,
+.third,
+.first,
+.second,
+.play {
+  position: absolute;
+}
+.shape {
+  width: 55rem;
+  height: 28px;
+  background-color: #333333;
+  right: 4rem;
+  top: 90% !important;
+}
+.play {
+  z-index: 5;
+  left: 6.5rem;
+  top: -5rem;
+}
+.third {
+  top: 40%;
+  left: 67%;
+}
+.first {
+  display: flex;
+  bottom: 3%;
+  left: 5%;
+}
+
+.Image3 {
+  width: 3rem;
+}
+
+.second {
+  left: 10%;
+}
+
+.Image,
+.Image1,
+.Image2 {
+  width: 8rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .hero-image {
+    height: 100vw;
+  }
+
+  .shape {
+    width: 17rem;
+    background-color: #333333;
+    margin: auto;
+bottom: 75%;   
+ left: 6%;
+  }
+
+  .hero-icon {
+    display: none;
+  }
+
+  .third {
+    top: 34%;
+    left: 15%;
+    width: 25%;
+  }
+  .first {
+    display: flex;
+    bottom: 3%;
+    left: 5%;
+  }
+
+  .play {
+    left: 4.5rem !important;
+    top: -4rem;
+    z-index: 5;
+  }
+
+  .second {
+    left: 5%;
+  }
+
+  .Image,
+  .Image1,
+  .Image2 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 700px) {
+  .shape {
+    width: 33rem;
+    background-color: #333333;
+    margin: auto;
+    top: 39%;
+  }
+
+  .hero-icon {
+    display: none;
+  }
+
+  .third {
+    position: relative;
+    top: -3rem;
+  }
+
+  .first,
+  .play,
+  .second,
+  .shape {
+    position: absolute;
+  }
+  .first {
+    bottom: 3rem;
+    left: 5rem;
+  }
+  .play {
+    bottom: 4rem;
+    left: 10.5rem;
+  }
+  .second {
+    bottom: -3rem;
+    left: 5rem;
+  }
+
+  .Image,
+  .Image1,
+  .Image2 {
+    width: 7rem;
+  }
+}
+@media (min-width: 701px) and (max-width: 1024px) {
+  .shape {
+    width: 55rem;
+    right: 4%;
+    top: 73%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .hero-icon {
+    top: 40rem;
+  }
+
+  .shape {
+    width: 70rem;
+    right: 4%;
+    top: 92%;
+    position: absolute;
+  }
+
+  .third {
+    top: 52%;
+    left: 67%;
+  }
+
+  
+  .play {
+    z-index: 5;
+    left: 6.5rem;
+    top: -5rem;
+  }
+}

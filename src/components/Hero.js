@@ -20,7 +20,7 @@ function Hero() {
                     <img className="Image1" src={hero3} alt="Logo3" />
                 </div>
                 <div className="play">                    
-                <img className="Image1" src={hero5} alt="Logo4" />
+                <img className="Image3" src={hero5} alt="Logo4" />
                 </div>
 
                 <div className="second">
